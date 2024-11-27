@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-// import TetrisAnimation from "./TetrisAnimation";
+import TetrisAnimation from "./TetrisAnimation";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
@@ -12,7 +12,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       {/* Tetris Animation for all themes except Classic */}
-      {/* <TetrisAnimation /> */}
+      <TetrisAnimation />
       <main>
         {/* Add page sections */}
         <section id="home">
